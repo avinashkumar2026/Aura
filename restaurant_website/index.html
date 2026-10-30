@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Bistro & Lounge | Fine Dining & Gourmet Craft</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container announcement-inner">
+            <span>✨ Festive Chef's Tasting Menu Available | Reserve Your Weekend Table Early</span>
+            <div class="top-contact">
+                <span>📞 +91 98765 43210</span>
+                <span class="dot">•</span>
+                <span>📍 Royal Avenue, Civil Lines</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="brand-logo">
+                <span class="logo-icon">⚜️</span>
+                <div class="logo-text">
+                    <span class="brand-name">AURA</span>
+                    <span class="brand-sub">BISTRO & LOUNGE</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#menu" class="nav-link">Our Menu</a></li>
+                    <li><a href="#reservation" class="nav-link">Reservations</a></li>
+                    <li><a href="#reviews" class="nav-link">Stories</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="cart-btn" id="openCartBtn" aria-label="View Cart">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+                <a href="#reservation" class="btn btn-primary nav-cta">Book Table</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-bg-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-badge">
+                    <span>Michelin-Inspired Artisanal Dining</span>
+                </div>
+                <h1 class="hero-title">Experience Fine Dining <br><span class="text-gold">Redefined.</span></h1>
+                <p class="hero-desc">
+                    Immerse your senses in a symphony of authentic heritage spices, sustainable farm-to-table ingredients, and contemporary gastronomic mastery.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#menu" class="btn btn-primary btn-lg">Explore Menu</a>
+                    <a href="#reservation" class="btn btn-outline btn-lg">Reserve a Table</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <span class="stat-num">4.9 ★</span>
+                        <span class="stat-label">Google Rating (1,800+ Diners)</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-card">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Farm-Fresh Organic Sourcing</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-card">
+                        <span class="stat-num">24+</span>
+                        <span class="stat-label">Signature Chef's Creations</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-images">
+                    <div class="image-wrapper main-img">
+                        <img src="images/hero_ambiance.jpg" alt="Aura Bistro Luxurious Dining Hall">
+                        <div class="experience-card">
+                            <span class="exp-num">15+</span>
+                            <span class="exp-text">Years of Culinary Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-tag">OUR CULINARY HERITAGE</div>
+                    <h2 class="section-title">Where Tradition Meets <span class="text-gold">Modern Culinary Art</span></h2>
+                    <p class="lead-text">
+                        Founded with a passion for soulful gastronomy, Aura Bistro brings together age-old regional spice secrets and refined plating techniques.
+                    </p>
+                    <p class="body-text">
+                        Every single dish tells a story. From hand-ground aromatic spices sourced directly from certified organic growers to sustainably caught wild seafood and artisanal slow-fired tandoor specialties, we craft unforgettable culinary memories.
+                    </p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">🌿</div>
+                            <div class="feature-text">
+                                <h4>Zero Preservatives & Local Produce</h4>
+                                <p>Ingredients hand-selected every morning from regional micro-farms.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">👨‍🍳</div>
+                            <div class="feature-text">
+                                <h4>Celebrated Master Chefs</h4>
+                                <p>Led by Executive Chef Armaan Kapoor with international Michelin kitchen credentials.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🍷</div>
+                            <div class="feature-text">
+                                <h4>Curated Cellar & Mixology</h4>
+                                <p>Pair your dinner with vintage cellars and hand-crafted botanical mocktails.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-signature">
+                        <div class="chef-info">
+                            <strong>Armaan Kapoor</strong>
+                            <span>Executive Chef & Culinary Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">EXQUISITE FLAVORS</div>
+                    <h2 class="section-title">Explore Our <span class="text-gold">Chef's Signature Menu</span></h2>
+                    <p class="section-subtitle">Select from our seasonal collection of appetizers, hearty mains, and decadent desserts.</p>
+                </div>
+
+                <!-- Menu Controls (Category Filters & Search) -->
+                <div class="menu-controls">
+                    <div class="filter-tabs" id="menuFilterTabs">
+                        <button class="filter-tab active" data-category="all">All Dishes</button>
+                        <button class="filter-tab" data-category="starters">Starters & Tapas</button>
+                        <button class="filter-tab" data-category="mains">Signature Mains</button>
+                        <button class="filter-tab" data-category="desserts">Decadent Desserts</button>
+                        <button class="filter-tab" data-category="beverages">Craft Beverages</button>
+                    </div>
+
+                    <div class="filter-secondary">
+                        <div class="diet-toggles">
+                            <button class="diet-btn" id="vegOnlyToggle" data-active="false">
+                                <span class="diet-dot veg"></span> Veg Only
+                            </button>
+                            <button class="diet-btn" id="chefSpecialToggle" data-active="false">
+                                ⭐ Chef's Special
+                            </button>
+                        </div>
+                        <div class="menu-search-box">
+                            <input type="text" id="menuSearchInput" placeholder="Search dishes (e.g., Salmon, Paneer, Truffle)...">
+                            <span class="search-icon">🔍</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Grid -->
+                <div class="menu-grid" id="menuGrid">
+                    <!-- Dishes dynamically rendered or pre-populated via JS -->
+                </div>
+
+                <!-- Empty Search Fallback -->
+                <div class="no-results hidden" id="noResultsMsg">
+                    <p>No dishes found matching your criteria. Try resetting the filters!</p>
+                    <button class="btn btn-outline btn-sm" id="resetFiltersBtn">Reset Filters</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Highlights Banner -->
+        <section class="highlight-banner">
+            <div class="container highlight-grid">
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img src="images/dish_salmon.jpg" alt="Seared Atlantic Salmon">
+                    </div>
+                    <div class="highlight-body">
+                        <span class="badge-gold">Dish of the Month</span>
+                        <h3>Pan-Seared Atlantic Salmon</h3>
+                        <p>Crispy skin fillet, heirloom glazed baby carrots, asparagus, and saffron velouté reduction.</p>
+                        <div class="highlight-footer">
+                            <span class="price">₹1,150</span>
+                            <button class="btn btn-primary btn-sm add-featured-btn" data-id="2">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-img">
+                        <img src="images/dessert_lava.jpg" alt="Valrhona Molten Lava Cake">
+                    </div>
+                    <div class="highlight-body">
+                        <span class="badge-gold">Patisserie Special</span>
+                        <h3>Valrhona Gold Lava Cake</h3>
+                        <p>70% dark Belgian cocoa center, raspberry compote, Madagascar bourbon vanilla gelato, 24K gold foil.</p>
+                        <div class="highlight-footer">
+                            <span class="price">₹580</span>
+                            <button class="btn btn-primary btn-sm add-featured-btn" data-id="6">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section class="reservation-section" id="reservation">
+            <div class="container">
+                <div class="reservation-card-wrapper">
+                    <div class="reservation-info">
+                        <div class="section-tag">RESERVATIONS</div>
+                        <h2 class="section-title">Book Your <span class="text-gold">Table in Seconds</span></h2>
+                        <p>Join us for an unforgettable dining experience. For private dining suites or parties larger than 10, please call our concierge directly.</p>
+                        
+                        <div class="reservation-perks">
+                            <div class="perk">
+                                <span class="perk-icon">✓</span>
+                                <div>
+                                    <strong>Instant Digital Confirmation</strong>
+                                    <p>Guaranteed seating with live SMS/email confirmation code.</p>
+                                </div>
+                            </div>
+                            <div class="perk">
+                                <span class="perk-icon">✓</span>
+                                <div>
+                                    <strong>Flexible Cancellation</strong>
+                                    <p>Complimentary cancellation or reschedule up to 2 hours prior.</p>
+                                </div>
+                            </div>
+                            <div class="perk">
+                                <span class="perk-icon">✓</span>
+                                <div>
+                                    <strong>Complimentary Welcome Drink</strong>
+                                    <p>Enjoy our signature botanical refresher upon arrival.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="concierge-box">
+                            <p class="concierge-label">Special Event or Corporate Banquet?</p>
+                            <p class="concierge-phone">Direct Concierge: <strong>+91 98765 43210</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="reservation-form-container">
+                        <form id="reservationForm" class="reservation-form">
+                            <h3 class="form-title">Reserve Seating</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="resName">Full Name *</label>
+                                    <input type="text" id="resName" required placeholder="e.g. Vikram Sharma">
+                                </div>
+                                <div class="form-group">
+                                    <label for="resPhone">Phone Number *</label>
+                                    <input type="tel" id="resPhone" required placeholder="e.g. +91 98765 00000">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="resEmail">Email Address *</label>
+                                    <input type="email" id="resEmail" required placeholder="vikram@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="resGuests">Number of Guests *</label>
+                                    <select id="resGuests" required>
+                                        <option value="1">1 Guest (Solo Dining)</option>
+                                        <option value="2" selected>2 Guests (Couple / Intimate)</option>
+                                        <option value="3">3 Guests</option>
+                                        <option value="4">4 Guests (Family / Friends)</option>
+                                        <option value="6">6 Guests</option>
+                                        <option value="8">8 Guests (Celebration)</option>
+                                        <option value="10">10+ Guests (Private Area)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="resDate">Reservation Date *</label>
+                                    <input type="date" id="resDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="resTime">Preferred Time Slot *</label>
+                                    <select id="resTime" required>
+                                        <option value="12:30 PM">12:30 PM (Lunch)</option>
+                                        <option value="01:30 PM">01:30 PM (Lunch)</option>
+                                        <option value="02:30 PM">02:30 PM (Lunch)</option>
+                                        <option value="07:00 PM">07:00 PM (Dinner)</option>
+                                        <option value="08:00 PM" selected>08:00 PM (Dinner Prime)</option>
+                                        <option value="09:00 PM">09:00 PM (Dinner Prime)</option>
+                                        <option value="10:00 PM">10:00 PM (Late Night Dining)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="resArea">Preferred Dining Ambience</label>
+                                <select id="resArea">
+                                    <option value="Main Dining Hall">Grand Dining Hall (Warm Chandelier Lighting)</option>
+                                    <option value="Romantic Rooftop Lounge">Starlit Rooftop Lounge (Scenic View)</option>
+                                    <option value="Garden Terrace">Verdant Garden Terrace (Al Fresco)</option>
+                                    <option value="Private Dining Suite">Royal Private Dining Suite</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="resNotes">Dietary Notes / Special Occasion (Optional)</label>
+                                <textarea id="resNotes" rows="2" placeholder="e.g. Anniversary celebration, prefer quiet booth, nut allergy..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitResBtn">
+                                Confirm Table Booking
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials / Stories Section -->
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag">GUEST EXPERIENCES</div>
+                    <h2 class="section-title">Words From Our <span class="text-gold">Patrons</span></h2>
+                    <p class="section-subtitle">Hear what critics and regular patrons cherish most about dining at Aura Bistro.</p>
+                </div>
+
+                <div class="reviews-slider-container">
+                    <div class="reviews-slider" id="reviewsSlider">
+                        <div class="review-card active">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-quote">"The Pan-Seared Salmon was sublime, cooked to absolute perfection with delicate saffron undertones. The ambiance on the starlit rooftop made our anniversary unforgettable."</p>
+                            <div class="reviewer-meta">
+                                <div class="reviewer-avatar">RP</div>
+                                <div>
+                                    <h4 class="reviewer-name">Rohan & Priya Mehta</h4>
+                                    <span class="reviewer-role">Verified Diner • Anniversary Celebration</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-quote">"As an avid food critic, Aura Bistro's interpretation of Truffle Mushroom Galouti is unprecedented. A masterclass in textural balance and hospitality."</p>
+                            <div class="reviewer-meta">
+                                <div class="reviewer-avatar">SK</div>
+                                <div>
+                                    <h4 class="reviewer-name">Shalini Kapoor</h4>
+                                    <span class="reviewer-role">Senior Culinary Reviewer, The Epicure Magazine</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-quote">"The Valrhona Gold Lava Cake alone is worth visiting for! Impeccable service, cordial staff, and a wine list that rivals international Michelin establishments."</p>
+                            <div class="reviewer-meta">
+                                <div class="reviewer-avatar">AD</div>
+                                <div>
+                                    <h4 class="reviewer-name">Amitabh Das</h4>
+                                    <span class="reviewer-role">Corporate Host & Regular Patron</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-controls">
+                        <button class="review-btn" id="prevReviewBtn" aria-label="Previous Review">←</button>
+                        <div class="review-dots" id="reviewDots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                        <button class="review-btn" id="nextReviewBtn" aria-label="Next Review">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Hours Section -->
+        <section class="contact-section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info-card">
+                    <div class="section-tag">VISIT US</div>
+                    <h2 class="section-title">Hours & <span class="text-gold">Location</span></h2>
+                    
+                    <div class="info-block">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Plot 42, Royal Heritage Boulevard, Civil Lines, Punjab 141001</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">🕒</div>
+                        <div>
+                            <h4>Dining Hours</h4>
+                            <p><strong>Lunch Service:</strong> Daily 12:00 PM – 03:30 PM</p>
+                            <p><strong>Dinner Service:</strong> Daily 07:00 PM – 11:30 PM</p>
+                            <p><strong>Lounge & Bar:</strong> Friday – Sunday until 01:00 AM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h4>Contact & Valet</h4>
+                            <p><strong>Concierge:</strong> +91 98765 43210</p>
+                            <p><strong>Email:</strong> reservations@aurabistro.com</p>
+                            <p><em>* Complimentary 24/7 Valet Parking available</em></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newsletter-card">
+                    <h3>Join The Connoisseurs Club</h3>
+                    <p>Subscribe to receive private invitations to seasonal tasting menus, sommelier masterclasses, and weekend acoustic evenings.</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <div class="newsletter-input-group">
+                            <input type="email" id="newsletterEmail" required placeholder="Enter your email address...">
+                            <button type="submit" class="btn btn-primary">Join Club</button>
+                        </div>
+                        <span class="privacy-note">We respect your privacy. No spam, ever.</span>
+                    </form>
+
+                    <div class="social-links-group">
+                        <span class="social-label">Follow Our Journey:</span>
+                        <div class="social-badges">
+                            <a href="#home" class="social-badge">Instagram</a>
+                            <a href="#home" class="social-badge">Facebook</a>
+                            <a href="#home" class="social-badge">TripAdvisor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Slide-Out Shopping Cart Drawer -->
+    <div class="cart-drawer-overlay" id="cartOverlay"></div>
+    <aside class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-header">
+            <div class="cart-title-wrapper">
+                <h3>Your Dining Order</h3>
+                <span class="cart-item-count" id="cartDrawerCount">(0 items)</span>
+            </div>
+            <button class="close-drawer-btn" id="closeCartBtn" aria-label="Close Cart">✕</button>
+        </div>
+
+        <div class="cart-drawer-body" id="cartDrawerBody">
+            <!-- Dynamically populated or empty state -->
+            <div class="cart-empty-state" id="cartEmptyState">
+                <span class="empty-icon">🍽️</span>
+                <h4>Your table order is empty</h4>
+                <p>Browse our menu and pick exquisite appetizers, mains, and beverages.</p>
+                <a href="#menu" class="btn btn-outline btn-sm" id="cartEmptyBrowseBtn">Browse Menu</a>
+            </div>
+            <div class="cart-items-list" id="cartItemsList"></div>
+        </div>
+
+        <div class="cart-drawer-footer" id="cartDrawerFooter">
+            <div class="bill-row">
+                <span>Subtotal:</span>
+                <span id="billSubtotal">₹0</span>
+            </div>
+            <div class="bill-row">
+                <span>GST (5%):</span>
+                <span id="billGst">₹0</span>
+            </div>
+            <div class="bill-row">
+                <span>Hospitality Service Charge (5%):</span>
+                <span id="billService">₹0</span>
+            </div>
+            <div class="bill-divider"></div>
+            <div class="bill-row total">
+                <strong>Grand Total:</strong>
+                <strong class="total-amount" id="billTotal">₹0</strong>
+            </div>
+
+            <button class="btn btn-primary btn-block btn-lg" id="checkoutBtn">
+                Place Dine-In / Takeaway Order
+            </button>
+        </div>
+    </aside>
+
+    <!-- Modal: Reservation Confirmation -->
+    <div class="modal-backdrop" id="resModalBackdrop">
+        <div class="modal-card">
+            <div class="modal-icon-header success">
+                <span>✓</span>
+            </div>
+            <h3 class="modal-title">Table Confirmed!</h3>
+            <p class="modal-subtitle">We have reserved your table at Aura Bistro & Lounge.</p>
+
+            <div class="receipt-box" id="resReceiptBox">
+                <div class="receipt-row">
+                    <span class="label">Booking Ref:</span>
+                    <strong class="code" id="modalResCode">#AUR-8829</strong>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Guest Name:</span>
+                    <span id="modalResName">Vikram Sharma</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Date & Time:</span>
+                    <span id="modalResDateTime">Tomorrow, 08:00 PM</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Party Size:</span>
+                    <span id="modalResGuests">2 Guests</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Seating Area:</span>
+                    <span id="modalResArea">Main Dining Hall</span>
+                </div>
+            </div>
+
+            <p class="modal-notice">A confirmation SMS & email with directions has been sent to your contacts.</p>
+
+            <div class="modal-actions">
+                <button class="btn btn-primary btn-block" id="closeResModalBtn">Done & Return</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Order Placed Confirmation -->
+    <div class="modal-backdrop" id="orderModalBackdrop">
+        <div class="modal-card">
+            <div class="modal-icon-header success">
+                <span>🥘</span>
+            </div>
+            <h3 class="modal-title">Order Received!</h3>
+            <p class="modal-subtitle">Our culinary kitchen has begun preparation for your order.</p>
+
+            <div class="receipt-box">
+                <div class="receipt-row">
+                    <span class="label">Order Ticket:</span>
+                    <strong class="code" id="modalOrderCode">#ORD-5541</strong>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Items Ordered:</span>
+                    <span id="modalOrderItemsCount">3 Items</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Amount Payable:</span>
+                    <strong class="total-amount" id="modalOrderTotal">₹1,850</strong>
+                </div>
+                <div class="receipt-row">
+                    <span class="label">Status:</span>
+                    <span class="badge-status">In Kitchen Preparation</span>
+                </div>
+            </div>
+
+            <p class="modal-notice">Our dining captain will bring your order directly to your table or prep counter.</p>
+
+            <div class="modal-actions">
+                <button class="btn btn-primary btn-block" id="closeOrderModalBtn">Great, Thank You!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- In-Page Toast Notification System -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">
+                    <span class="logo-icon">⚜️</span>
+                    <span class="brand-name">AURA BISTRO</span>
+                </div>
+                <p>Culinary artistry inspired by royal Indian traditions and international Michelin techniques. Experience dining at its finest.</p>
+                <p class="footer-copyright">© 2026 Aura Bistro & Lounge. All rights reserved.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Our Story</a></li>
+                    <li><a href="#menu">Full Dining Menu</a></li>
+                    <li><a href="#reservation">Table Reservations</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Dining Experience</h4>
+                <ul>
+                    <li><a href="#menu">Private Dining Suites</a></li>
+                    <li><a href="#reservation">Corporate Banquets</a></li>
+                    <li><a href="#reviews">Sommelier Masterclasses</a></li>
+                    <li><a href="#contact">Valet Parking & Location</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hospitality & Timings</h4>
+                <p class="footer-highlight">Open 7 Days a Week</p>
+                <p>Lunch: 12:00 PM – 03:30 PM</p>
+                <p>Dinner: 07:00 PM – 11:30 PM</p>
+                <p>Helpline: +91 98765 43210</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
